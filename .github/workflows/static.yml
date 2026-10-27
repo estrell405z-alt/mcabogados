@@ -1,5 +1,4 @@
 
-@'
 name: Deploy M&C Abogados to GitHub Pages
 
 on:
@@ -55,4 +54,3 @@ jobs:
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
-'@ | Set-Content -Path .github\workflows\static.yml -Encoding utf8
